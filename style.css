@@ -1,0 +1,60 @@
+body {
+  max-width: 1800px;
+}
+h1 {
+  height: 300px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5rem;
+}
+.img-container {
+  max-width: 1800px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+.img {
+  width: 200px;
+  height: 100px;
+}
+.imgs {
+  width: 100%;
+  height: 100%;
+}
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  top: 0;
+/*   left: 20%; */
+  margin: auto;
+  height: 100%;
+  padding-top: 1rem;
+}
+.arrow:hover,
+.imgs:hover {
+  cursor: pointer;
+}
+.modalContent {
+  height: 400px;
+  position: relative;
+  width: 60%;
+  margin: auto;
+  border: 1px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0);
+
+}
+.arrow {
+  position: fixed;
+  top: 50%;
+  font-size: 2rem;
+  color: white;
+}
+.arrowRight {
+  right: 3%;
+}
+.arrowLeft {
+  left: 3%;
+} 
